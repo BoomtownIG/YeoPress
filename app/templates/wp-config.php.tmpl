@@ -55,6 +55,11 @@ if (!defined('DB_COLLATE')) {
 <%= conf.get('saltKeys') %>
 /**#@-*/
 
+/** Store server FTP details */
+define('FTP_HOST', <%= conf.get('ftpHost') %>);
+define('FTP_USER', <%= conf.get('ftpUser') %>);
+define('FTP_PASS', <%= conf.get('ftpPass') %>);
+
 /** Disable file editing via the dashboard */
 define('DISALLOW_FILE_EDIT', true);
 
