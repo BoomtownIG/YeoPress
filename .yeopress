@@ -1,0 +1,12 @@
+{
+        "tablePrefix": "wp_",
+        "git": true,
+        "submodule": true,
+        "installTheme": true,
+        "themeDir": "roots-sass",
+        "themeType": "git",
+        "themeUser": "BoomtownIG",
+        "themeRepo": "roots-sass",
+        "themeBranch": "master",
+        "customDirs": false
+}
