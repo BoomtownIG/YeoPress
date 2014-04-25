@@ -1,7 +1,7 @@
 {
   "name": "generator-btig-wordpress",
   "version": "1.4.2",
-  "description": "A Yeoman generator for WordPress",
+  "description": "A (BTIG-specific) Yeoman generator for WordPress",
   "keywords": [
     "yeoman-generator",
     "wordpress",
