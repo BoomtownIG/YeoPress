@@ -6,3 +6,8 @@ define('DB_PASSWORD', '<%= conf.get('dbPass') %>');
 define('DB_HOST', '<%= conf.get('dbHost') %>');
 $table_prefix  = '<%= conf.get('tablePrefix') %>';
 define('WP_DEBUG', false);
+
+/** Store server FTP details */
+define('FTP_HOST', <%= conf.get('ftpHost') %>);
+define('FTP_USER', <%= conf.get('ftpUser') %>);
+define('FTP_PASS', <%= conf.get('ftpPass') %>);

@@ -55,6 +55,9 @@ if (!defined('DB_COLLATE')) {
 <%= conf.get('saltKeys') %>
 /**#@-*/
 
+/** Disable file editing via the dashboard */
+define('DISALLOW_FILE_EDIT', true);
+
 /**
  * WordPress Database Table prefix.
  *

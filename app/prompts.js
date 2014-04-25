@@ -56,6 +56,20 @@ module.exports = function(advanced, defaults) {
 			name: 'dbPass',
 			default: defaults.dbPass || null
 		}, {
+			message: 'FTP host',
+			name: 'ftpHost',
+			default: defaults.ftpHost || 'localhost',
+			validate: requiredValidate
+		}, {
+			message: 'FTP user',
+			name: 'ftpUser',
+			default: defaults.ftpUser || null,
+			validate: requiredValidate
+		}, {
+			message: 'FTP password',
+			name: 'ftpPass',
+			default: defaults.ftpPass || null
+		}, {
 			message: 'Language',
 			name: 'wpLang',
 			default: defaults.wplang || null,
