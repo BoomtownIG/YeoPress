@@ -1,5 +1,5 @@
 {
-  "name": "generator-wordpress",
+  "name": "btig-generator-wordpress",
   "version": "1.4.2",
   "description": "A Yeoman generator for WordPress",
   "keywords": [
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/wesleytodd/YeoPress.git"
+    "url": "git://github.com/BoomtownIG/YeoPress.git"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
